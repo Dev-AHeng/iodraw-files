@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" modified="2024-03-27T15:07:50.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="8xoOcKHDIrL4F9XRGud2" version="24.2.0" type="github">
+  <diagram name="第 1 页" id="A1DrhoH4sVd6H16uu-Bh">
+    <mxGraphModel dx="786" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-1" value="顾客" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=31.5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;labelBorderColor=none;fillColor=#FFFFCC;swimlaneFillColor=#FFFFCC;strokeColor=#990033;" vertex="1" parent="1">
+          <mxGeometry x="90" y="193" width="153" height="103.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-2" value="-购买的饮料: String" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-1">
+          <mxGeometry y="31.5" width="153" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-3" style="line;strokeWidth=1;fillColor=#FFFFCC;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#990033;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-1">
+          <mxGeometry y="63.5" width="153" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-4" value="+购买饮料(): Void" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-1">
+          <mxGeometry y="71.5" width="153" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-5" value="供应商" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=31.5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;labelBorderColor=none;fillColor=#FFFFCC;strokeColor=#990033;swimlaneFillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="293" y="193" width="153" height="103.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-6" value="-放置的饮料: String" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-5">
+          <mxGeometry y="31.5" width="153" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-7" style="line;strokeWidth=1;fillColor=#FFFFCC;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#990033;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-5">
+          <mxGeometry y="63.5" width="153" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-8" value="+放置饮料(): Void" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-5">
+          <mxGeometry y="71.5" width="153" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-9" value="收银员" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=27.9;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;labelBorderColor=none;swimlaneFillColor=#FFFFCC;fillColor=#FFFFCC;strokeColor=#990033;" vertex="1" parent="1">
+          <mxGeometry x="496" y="170" width="200" height="147.9" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-10" value="-放置的零钱: Number" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-9">
+          <mxGeometry y="27.9" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-11" value="-收回的营业收入: Number" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-9">
+          <mxGeometry y="55.9" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-12" style="line;strokeWidth=1;fillColor=#FFFFCC;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#990033;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-9">
+          <mxGeometry y="83.9" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-13" value="+放置零钱(): Void" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-9">
+          <mxGeometry y="91.9" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-14" value="+收回营业收入(): Void" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-9">
+          <mxGeometry y="119.9" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-15" value="饮料自动售货机" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;labelBorderColor=none;swimlaneFillColor=#FFFFCC;fillColor=#FFFFCC;strokeColor=#990033;" vertex="1" parent="1">
+          <mxGeometry x="336" y="386" width="152" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-16" value="-饮料: String" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry y="26" width="152" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-17" value="-零钱: Number" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry y="52" width="152" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-18" value="-营业收入: Number" style="text;strokeColor=#990033;fillColor=#FFFFCC;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry y="78" width="152" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-19" style="line;strokeWidth=1;fillColor=#FFFFCC;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#990033;labelBorderColor=none;swimlaneFillColor=#FFFFCC;" vertex="1" parent="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry y="104" width="152" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-20" value="购买饮料" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5005361519607843;exitY=0.9902912621359223;entryX=0.0001541940789473684;entryY=0.2603933721707572;rounded=0;fillColor=#f8cecc;strokeColor=#990033;fontFamily=Garamond;labelBorderColor=none;" edge="1" parent="1" source="6TgF9NHxRm26-6XSjYqH-1" target="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="167" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-21" value="放置饮料" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5016084558823529;exitY=0.9902912621359223;entryX=0.3204132374753503;entryY=0;rounded=0;labelBorderColor=none;strokeColor=#990033;" edge="1" parent="1" source="6TgF9NHxRm26-6XSjYqH-5" target="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-22" value="放置零钱" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.2589915635850696;exitY=0.9966216216216216;entryX=0.9813991605254658;entryY=0;rounded=0;labelBorderColor=none;strokeColor=#990033;" edge="1" parent="1" source="6TgF9NHxRm26-6XSjYqH-9" target="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6TgF9NHxRm26-6XSjYqH-23" value="收回营业收入" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.6726482928240739;exitY=0.9966216216216216;entryX=0.9997944078947368;entryY=0.24916642783350562;rounded=0;labelBorderColor=none;strokeColor=#990033;" edge="1" parent="1" source="6TgF9NHxRm26-6XSjYqH-9" target="6TgF9NHxRm26-6XSjYqH-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="646" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
