@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-06-09T06:29:52.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" version="24.5.2" etag="9lfB6IEcRBpxtp0bxlEf" type="github">
+  <diagram name="第 1 页" id="het8EQohJs0Gh28Ya6Ld">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="罗定市2024年中小学思政课教师评选活动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="84" width="305" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="活动目的" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="84" width="80" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="立德树人" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="524" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="推进一体化建设" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="84" width="127" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="促进教育高质量发展" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="484" y="167" width="159" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="活动对象" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="113" y="167" width="80" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9985655737704918;exitY=0.47794117647058826;entryX=-0.00546875;entryY=0.47794117647058826;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.6537659056886227;exitY=-0.014705882352941176;entryX=0.0007911392405063291;entryY=0.49264705882352944;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="459" y="17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.98828125;exitY=0.47794117647058826;entryX=0.0004921259842519685;entryY=0.47794117647058826;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.6537659056886227;exitY=0.9705882352941176;entryX=0.00039308176100628933;entryY=0.49264705882352944;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="459" y="184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
